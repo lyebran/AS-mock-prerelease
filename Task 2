@@ -1,0 +1,12 @@
+task2 = open("monsters.txt", "r")
+prompt = input("Enter Monster: ")
+while True:
+    line = task2.readline()
+    eachline = line.split(",")
+    if str(prompt) in eachline[1]:
+        print("Monster Found")
+    elif str(prompt) not in eachline[1]:
+        print("Monster Not Found")
+    else:
+        break
+task2.close()
