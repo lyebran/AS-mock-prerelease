@@ -6,7 +6,7 @@ prompt = input("Enter Monster: ")
 while True:
     line = task2.readline()
     eachline = line.split(",")
-    if str(prompt) in eachline[1]:
+    if str(prompt) == eachline[1]:
         found = True
 
 if found == True:
