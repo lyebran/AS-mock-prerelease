@@ -1,0 +1,18 @@
+#Task 3
+
+name = input("Enter Name: ")
+origin = input("Enter origin: ")
+description = input("Enter description for the monster: ")
+
+attack = int(input("Enter Attack stat from range 0-30: "))
+if attack < 0:
+    print("Invalid, must be between 0 and 30.")
+elif attack > 30:
+    print("Invalid, must be between 0 and 30.")
+magicalforce = int(input("Enter Magical Force stat from range 0-30: "))
+magicaldefence = int(input("Enter Magical Defence stat from range 0-30: "))
+defence = int(input("Enter Defence stat from range 0-30: "))
+intelligence = int(input("Enter Intelligence stat from range 0-30: "))
+health = int(input("Enter Health stat from range 0-30: "))
+experience = int(input("Enter Experience stat from range 0-30: "))
+
