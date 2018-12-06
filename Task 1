@@ -1,0 +1,14 @@
+#Mock Prerelease
+#Task 1
+monsters = open("monsters.txt", "r")
+allmonster = []
+while True:
+    line = monsters.readline()
+    if len(line) == 0:
+        break
+
+    record = (line[:-3]).split(",")
+    allmonster.append(record)
+    print(record[1])
+
+monsters.close()
