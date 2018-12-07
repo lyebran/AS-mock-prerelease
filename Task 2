@@ -2,11 +2,13 @@
 
 task2 = open("monsters.txt", "r")
 found = False
-prompt = input("Enter Monster: ")
+prompt = input("Enter Monster (Case Sensitive): ")
 while True:
     line = task2.readline()
     eachline = line.split(",")
-    if str(prompt) == eachline[1]:
+    if len(line) == 0:
+        break
+    elif str(prompt) == eachline[1]:
         found = True
 
 if found == True:
