@@ -1,0 +1,14 @@
+#Task 4
+
+#1) ONECHAR("Tiger",3) will return "g"
+#2) CHARACTERCOUNT("Great Pyramid of Giza") will return 21
+#3) TONUM('3') + TONUM('29') will return 32
+#4) Analyse the following code
+#       p <-- "The" & "Titanic"
+#       q <-- SUBSTR(p,8,4)
+# This will return "atiT"
+#5)IDE <-- "Integrated Development Environment"
+#a) SUBSTR(IDE,1,10) will return "Integrated"
+#b) SUBSTR(IDE,12,22) will return "Development"
+#c) 
+
