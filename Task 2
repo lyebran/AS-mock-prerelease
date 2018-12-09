@@ -1,15 +1,15 @@
 #Task 2
 
-task2 = open("monsters.txt", "r")
-found = False
-prompt = input("Enter Monster (Case Sensitive): ")
+task2 = open("monsters.txt", "r")     #opens the monsters.txt file to read it
+found = False                         #sets the found variable to false (boolean)
+prompt = input("Enter Monster (Case Sensitive): ")   #user inputs the name of the monster
 while True:
-    line = task2.readline()
-    eachline = line.split(",")
-    if len(line) == 0:
+    line = task2.readline()           #in a loop to read each line of the .txt file line-by-line
+    eachline = line.split(",")        #separates the different lines in the text file by commas to get the name by itself
+    if len(line) == 0:                #breaks the loop once there are no more lines, AKA when it is done reading
         break
-    elif str(prompt) == eachline[1]:
-        found = True
+    elif str(prompt) == eachline[1]:       #eachline[1] is the position the names are in each list
+        found = True                  # sets the found variable to True if the name inputted by the user matches 
 
 if found == True:
     print("Monster Found")
