@@ -10,5 +10,10 @@
 #5)IDE <-- "Integrated Development Environment"
 #a) SUBSTR(IDE,1,10) will return "Integrated"
 #b) SUBSTR(IDE,12,22) will return "Development"
-#c) 
+#c) ONECHAR(IDE,1) & ONECHAR(IDE,12) & ONECHAR(IDE,24)
+#6)
+#a) (ASC('F') + 30) / 50 = 2
+#b) 2 * (ASC() + ASC('D')) = 138
+#7) 42
+
 
