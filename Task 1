@@ -1,14 +1,14 @@
 #Mock Prerelease
 #Task 1
-monsters = open("monsters.txt", "r")
-allmonster = []
+monsters = open("monsters.txt", "r")    #opens the .txt file
+allmonster = []     #sets an array
 while True:
-    line = monsters.readline()
-    if len(line) == 0:
+    line = monsters.readline()    #reads line by line
+    if len(line) == 0:    #loop breaks once there are no more lines to read
         break
 
-    record = (line[:-3]).split(",")
-    allmonster.append(record)
-    print(record[1])
+    record = (line[:-3]).split(",") #:-3 cuts off the \n at the end of each line 
+    allmonster.append(record)  #adds that to the list of monsters from the beginning^
+    print(record[1]) #prints the second position (the names of the monsters) of the list
 
 monsters.close()
