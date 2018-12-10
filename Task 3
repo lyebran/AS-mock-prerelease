@@ -1,84 +1,74 @@
-#Task 3
-
 name = input("Enter Name: ")
 origin = input("Enter origin: ")
 description = input("Enter description for the monster: ")
-done = 0
-while done < 3:
+while True:
     attack = int(input("Enter Attack stat from range 0-30: "))
-    done = done + 1
     if attack < 0:
         print("Invalid, must be between 0 and 30.")
     elif attack > 30:
         print("Invalid, must be between 0 and 30.")
     else:
         break
-done = 0
 
 
-while done < 3:
+
+while True:
     magicalforce = int(input("Enter Magical Force stat from range 0-30: "))
-    done = done + 1
     if magicalforce < 0:
         print("Invalid, must be between 0 and 30.")
     elif magicalforce > 30:
         print("Invalid, must be between 0 and 30.")
     else:
         break
-done = 0
 
 
-while done < 3:
+
+while True:
     magicaldefence = int(input("Enter Magical Defence stat from range 0-30: "))
-    done = done + 1
     if magicaldefence < 0:
         print("Invalid, must be between 0 and 30.")
     elif magicaldefence > 30:
         print("Invalid, must be between 0 and 30.")
     else:
         break
-done = 0
 
 
-while done < 3:
+
+while True:
     defence = int(input("Enter Defence stat from range 0-30: "))
-    done = done + 1
     if defence < 0:
         print("Invalid, must be between 0 and 30.")
     elif defence > 30:
         print("Invalid, must be between 0 and 30.")
     else:
         break
-done = 0
 
 
-while done < 3:
+
+while True:
     intelligence = int(input("Enter Intelligence stat from range 0-30: "))
-    done = done + 1
     if intelligence < 0:
         print("Invalid, must be between 0 and 30.")
     elif intelligence > 30:
         print("Invalid, must be between 0 and 30.")
     else:
         break
-done = 0
 
 
-while done < 3:
+
+while True:
     health = int(input("Enter Health stat from range 0-30: "))
-    done = done + 1
     if health < 0:
         print("Invalid, must be between 0 and 30.")
     elif health > 30:
         print("Invalid, must be between 0 and 30.")
     else:
         break
-done = 0
 
 
-while done < 3:
+
+while True:
     experience = int(input("Enter Experience stat from range 0-30: "))
-    done = done + 1
     if experience < 0:
         print("Invalid, must be between 0 and 30.")
     elif experience > 30:
@@ -96,4 +86,5 @@ print("Defence: " + str(defence))
 print("Intelligence: " + str(intelligence))
 print("Health: " + str(health))
 print("Experience: " + str(experience))
+
 
